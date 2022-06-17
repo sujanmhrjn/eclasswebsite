@@ -1,0 +1,38 @@
+.c-footer{
+    background-color: $color-blue;
+    padding: 50px 15px;
+    text-align: center;
+    img{
+        max-width: 250px;
+        margin-bottom:20px;
+    }
+    ul{
+        list-style-type: none;
+        padding:0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li{
+  
+            a{
+                padding:10px 15px;
+                display: block;
+                color:#bcbcbc;
+                font-size: 14px;
+                &:hover{
+                    color:#fff;
+                }
+            }
+        }
+    }
+    h2{
+        color:#bcbcbc;
+        font:20px $font-oswald;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    p{
+        font-size:14px;
+        color:#bcbcbc
+    }
+}

@@ -1,0 +1,32 @@
+.introduction{
+    .image{
+        background-color: #fff;
+        text-align: center;
+        padding:50px;
+        border-radius: 5px;
+        margin-bottom:25px;
+        @include custom_min(768px){
+            float:left;
+            margin:0 25px 25px 0;
+            max-width: 300px;
+        }
+
+        @include custom_min(992px){
+            max-width:400px;
+            margin-bottom:12px;
+        }
+    }
+    .text{
+        padding:0 15px;
+        color: $color-gray;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.6;
+        p{
+            margin-bottom:30px;
+            &:last-child{
+                margin-bottom:0;
+            }
+        }
+    }
+}

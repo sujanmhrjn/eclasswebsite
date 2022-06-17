@@ -1,0 +1,17 @@
+.c-form{
+    .form-group{
+        margin-bottom:15px;
+        label{
+            font-size: 14px;
+            color:$color-gray;
+        }
+        .form-control{
+            border-radius: 4px;
+            box-shadow:none;
+            outline: none;
+            min-height:50px;
+            border:1px solid #dedede;
+            font-size: 14px;
+        }
+    }
+}

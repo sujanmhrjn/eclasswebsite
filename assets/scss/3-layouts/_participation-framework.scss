@@ -1,0 +1,22 @@
+.participation-framework{
+    .description{
+        padding:0 15px;
+        color: $color-gray;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.6;
+        h2{
+            font:500 24px $font-oswald;
+            color:darken($color-gray,10%);
+        }
+        p{
+            margin-bottom:30px;
+        }
+
+        .note{
+            font-style: oblique;
+            color:$color-gray;
+            margin-bottom: 40px;
+        }
+    }
+}

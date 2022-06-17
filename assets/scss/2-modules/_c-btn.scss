@@ -1,0 +1,17 @@
+.c-btn{
+    font:14px $font-oswald;
+    text-transform: uppercase;
+    background-color: $color-blue;
+    color:#fff;
+    border:none;
+    display: inline-block;
+    padding:15px 15px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    transition:all 0.4s;
+    &:hover, &:focus{
+        color:#fff;
+        background-color:darken($color-blue,10%)
+    }
+    
+}
