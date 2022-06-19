@@ -1,0 +1,40 @@
+.c-posts{
+    .image-container{
+        position: relative;
+        padding:20px;
+        margin-top:60px;
+        .pattern{
+            position: absolute;
+            top:-30px;
+            bottom:-30px;
+            left:-30px;
+            right:-30px;
+            object-fit: contain;
+            max-width:300px;
+            margin: 0 auto;
+            img{
+                width:100%;
+            }
+        }
+       
+        .main-image{
+            max-width: 180px;
+            border-radius: 15px;
+            overflow: hidden;
+            background-color: #fff;
+            padding:5px 0;
+            margin: 0 auto;
+            position: relative;
+           
+        }
+    }
+    .post-content{
+        max-width: 800px;
+        margin:0 auto;
+        padding:15px;
+        text-align: center;
+        font-size: 14px;
+        color:$color-gray;
+        line-height: 1.6;
+    }
+}

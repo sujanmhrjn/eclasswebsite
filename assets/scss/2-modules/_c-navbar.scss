@@ -3,7 +3,13 @@
 
     .navbar-brand{
         img{
-            max-width: 250px;
+            max-width:150px;
+        }
+
+        @include custom_min(992px){
+            img{
+                max-width: 250px;
+            }
         }
     }
 
@@ -14,6 +20,11 @@
             text-transform: uppercase;
             display: block;
             padding:10px 12px;
+            .nav-link{
+                &.active{
+                    color:$color-red;
+                }
+            }
         }
 
         .dropdown-menu{
