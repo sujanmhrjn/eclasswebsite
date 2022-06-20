@@ -13,5 +13,19 @@
         color:#fff;
         background-color:darken($color-blue,10%)
     }
+
+    &.btn-sm{
+        font-size: 12px;
+    }
+
+    &.btn-outline{
+        border:1px solid $color-blue;
+        color:$color-blue;
+        background-color: transparent;
+        &:hover{
+            background-color: $color-blue;
+            color:#fff;
+        }
+    }
     
 }
