@@ -18,18 +18,45 @@
             font-size: 14px;
             font-weight: 600;
             text-transform: uppercase;
-            display: block;
+            display: inline-flex;
+            align-items: center;
             padding:10px 12px;
+            line-height: 1;
             .nav-link{
+                display: inline-flex;
+                align-items: center;
+                img{
+                    max-width: 30px;
+                    max-height: 24px;
+                    margin-right:8px;
+                    margin-bottom:0;
+                    display: block;
+                }
                 &.active{
                     color:$color-red;
                 }
             }
+            &.auth-dropdown{
+                .dropdown-toggle{
+                     background-color: #e5eeff;
+                     border-radius: 5px;
+                }
+            }
         }
+        
 
         .dropdown-menu{
             right:0;
             left:auto;
+
+            li{
+                font-size: 14px;
+                font-weight: 600;
+                a{
+                    display: block;
+                    padding:10px 15px;
+                }
+            }
         }
     }
 }
