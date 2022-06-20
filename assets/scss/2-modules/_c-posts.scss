@@ -50,4 +50,47 @@
             color:darken($color-gray,10%);
         }
     }
+
+
+    .post-internal{
+        border:1px  solid #fff;
+        min-height: 500px;
+        top:0;
+        background-color: #fff;
+        &-menu{
+            position: sticky;
+            top:75px;
+            .menus{
+                display: flex;
+                justify-content: stretch;
+                margin:0;
+                padding:0;
+                li{
+                    flex:1;
+                    list-style: none;
+                    padding:0;
+                    margin:0;
+                  
+                    a{
+                        padding:10px;
+                        background-color: #fff;
+                        display: block;
+                        color:$color-gray;
+                        border-right:1px solid #dedede;
+                        border-bottom: 1px solid #dedede;
+                        &.active{
+                            color:#fff;
+                            background-color: $color-blue;
+                            border-color: $color-blue;
+                        }
+                    }
+                    &:last-child{
+                        a{
+                            border-right:none;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
