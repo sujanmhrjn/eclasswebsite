@@ -57,6 +57,10 @@
         min-height: 500px;
         top:0;
         background-color: #fff;
+        &.bg-transparent{
+            border:none;
+            background-color: transparent;
+        }
         &-menu{
             position: sticky;
             top:75px;
@@ -87,6 +91,18 @@
                     &:last-child{
                         a{
                             border-right:none;
+                        }
+                    }
+                }
+
+                &.menus-separated{
+                    border:none;
+                    padding:5px;
+                    li{
+                        
+                        padding:0 5px;
+                        a{
+                            border:1px solid #dedede;
                         }
                     }
                 }
