@@ -30,9 +30,16 @@
         font:20px $font-oswald;
         text-transform: uppercase;
         letter-spacing: 1px;
+        margin-bottom: 15px;
     }
     p{
         font-size:14px;
         color:#bcbcbc
+    }
+    a{
+        color:#fff;
+        &:hover{
+            text-decoration: none;
+        }
     }
 }
